@@ -1,0 +1,20 @@
+{
+  "name": "install-nginx-on-ubuntu",
+  "version": "0.0.1",
+  "perferGlobal": "true",
+  "description": "Installs Nginx on Ubuntu over SSH. Also starts Nginx and configures upstart to start and monitor Nginx on startup.",
+  "main": "index.js",
+  "bin": {
+    "install-nginx-on-ubuntu": "install.js"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/install-nginx-on-ubuntu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/install-nginx-on-ubuntu/issues"
+  },
+  "homepage": "https://github.com/maxogden/install-nginx-on-ubuntu"
+}
